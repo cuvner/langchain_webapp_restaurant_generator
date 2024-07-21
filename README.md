@@ -38,27 +38,26 @@ cd restaurant-name-generator
 
 pip install -r requirements.txt
 
-Usage
+### Usage
+
 Running the App
 
-    Set your OpenAI API key in a .env file:
+Set your OpenAI API key in a .env file:
 
-    plaintext
-
-OPENAI_API_KEY=your_openai_api_key
+    OPENAI_API_KEY=your_openai_api_key
 
 Run the Streamlit app:
 
-streamlit run restaurant_generator.py
+    streamlit run restaurant_generator.py
 
-    Open your browser and go to http://localhost:8501.
+Open your browser and go to http://localhost:8501.
 
 ### Project Structure
 
-    restaurant_generator.py: The Streamlit app code.
-    langchain_helper.py: Contains the functions and chains for generating restaurant names and menus.
-    requirements.txt: Lists the Python dependencies.
-    .env: Contains the OpenAI API key (not included in the repository).
+restaurant_generator.py: The Streamlit app code.
+langchain_helper.py: Contains the functions and chains for generating restaurant names and menus.
+requirements.txt: Lists the Python dependencies.
+.env: Contains the OpenAI API key (not included in the repository).
 
 ### Resources
 
@@ -71,10 +70,7 @@ streamlit run restaurant_generator.py
 ### Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-License
+
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-```
-
-```
