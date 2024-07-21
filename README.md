@@ -31,13 +31,10 @@ The Restaurant Name Generator uses the LangChain library to create chains of pro
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/restaurant-name-generator.git
 cd restaurant-name-generator
 
-Install Dependencies
-
-bash
+### Install Dependencies
 
 pip install -r requirements.txt
 
@@ -52,31 +49,32 @@ OPENAI_API_KEY=your_openai_api_key
 
 Run the Streamlit app:
 
-bash
-
-    streamlit run restaurant_generator.py
+streamlit run restaurant_generator.py
 
     Open your browser and go to http://localhost:8501.
 
-Project Structure
+### Project Structure
 
     restaurant_generator.py: The Streamlit app code.
     langchain_helper.py: Contains the functions and chains for generating restaurant names and menus.
     requirements.txt: Lists the Python dependencies.
     .env: Contains the OpenAI API key (not included in the repository).
 
-## Resources
+### Resources
+
 - LangChain Documentation: https://python.langchain.com/v0.1/docs/get_started/introduction
 - LangChain Chains: https://python.langchain.com/v0.1/docs/expression_language/cookbook/multiple_chains/
 - LangChain Fundamentals Video: https://www.youtube.com/watch?v=yF9kGESAi3M&t=3811s
 - Restaurant Creator App Tutorial: https://www.youtube.com/watch?v=nAmC7SoVLd8&t=1614s
 - Streamlit Documentation: https://streamlit.io/
 
-
-Contributing
+### Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+```
+
 ```
