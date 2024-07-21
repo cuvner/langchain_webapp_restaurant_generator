@@ -65,13 +65,13 @@ Project Structure
     requirements.txt: Lists the Python dependencies.
     .env: Contains the OpenAI API key (not included in the repository).
 
-Resources
+## Resources
+- LangChain Documentation: https://python.langchain.com/v0.1/docs/get_started/introduction
+- LangChain Chains: https://python.langchain.com/v0.1/docs/expression_language/cookbook/multiple_chains/
+- LangChain Fundamentals Video: https://www.youtube.com/watch?v=yF9kGESAi3M&t=3811s
+- Restaurant Creator App Tutorial: https://www.youtube.com/watch?v=nAmC7SoVLd8&t=1614s
+- Streamlit Documentation: https://streamlit.io/
 
-    LangChain Documentation
-    LangChain Chains
-    LangChain Fundamentals Video
-    Restaurant Creator App Tutorial
-    Streamlit Documentation
 
 Contributing
 
